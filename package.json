@@ -1,0 +1,18 @@
+{
+  "name": "build-your-own-wakatime",
+  "version": "1.0.0",
+  "description": "📊 Build your own Wakatime",
+  "scripts": {
+    "serve": "node index.js",
+    "test-sheets": "node scripts/testSheets.js",
+    "token-sheets": "node scripts/getSheetsToken.js"
+  },
+  "author": "Matan Kushner <matchai@me.com>",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^36.0.0",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "readline": "^1.3.0"
+  }
+}
